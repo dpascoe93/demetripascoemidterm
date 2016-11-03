@@ -1,0 +1,450 @@
+
+.top-nav {
+	display: inline-block;
+	background-color: #323232;
+	width: 100%;
+	margin: 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+
+}
+
+
+body {
+	background-color: #b9b9b9;
+	padding-top: 25px;
+	font-family: sans-serif;
+	margin-left: 0;
+	margin-right: 0;
+	position: absolute;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	width: 20%;
+	padding-right: 0;
+	text-align: center;
+}
+
+li:hover {
+	color: #b9b9b9;
+}
+
+.title {
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	top: 60%;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+}
+
+.title2 {
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	text-align: center;
+	top: 82%;
+	width: 100%;
+	z-index: 100;
+}
+
+.container {
+	position: relative;
+	height: 805.26px;
+}
+
+@media (max-width: 1200px) {
+	.container {
+		height: 630px;
+	}
+
+	.title {
+		font-size: 40px;
+	}
+
+	.title2 {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.container {
+		height: 534px;
+	}
+
+	.title {
+		font-size: 200%;
+	}
+
+	.title2 {
+		font-size: 175%;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		height: 398px;
+	}
+
+	.title {
+		font-size: 150%
+	}
+
+	.title2 {
+		font-size: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		height: 245px;
+	}
+
+	.title {
+		font-size: 100%;
+	}
+
+	.title2 {
+		font-size: 65%;
+	}
+}
+
+
+.main {
+	width: 100%;
+	max-width: 100%;
+	padding: 0 0 0 0;
+	position: relative;
+	padding-top: 1%;
+}
+
+.toppic {
+	width: 100%;
+	padding: 0;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+}
+
+a {
+	text-decoration: none;
+	color: #f5f6f8;
+}
+
+.ttep {
+	margin: 3px;
+	text-align: center;
+	color: #f5f6f8;
+	padding: 15px;
+}
+
+h2 {
+	letter-spacing: 5px;
+	text-align: center;
+	margin: 70px;
+	font-size: 200%;
+	color: #f5f6f8;
+}
+
+@media (max-width: 480px) {
+	h2 {
+		margin: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	h2 {
+		margin: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	h2 {
+		margin: 50px;
+	}
+}
+
+
+.masterwork {
+	text-align: center;
+	width: 100%;
+	background-color: #f5f6f8;
+	padding-top: 7%;
+	padding-bottom: 7%;
+
+}
+
+
+.work1 {
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+.work2 {
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+.ucbpic {
+	width: 300px;
+	height: 300px;
+}
+
+.uapic {
+	width: 300px;
+	height: 300px;
+}
+
+.cmpic {
+	width: 300px;
+	height: 300px;
+}
+
+.sprintpic {
+	width: 300px;
+	height: 300px;
+}
+
+.hallpic {
+	width: 300px;
+	height: 300px;
+}
+
+.snappic {
+	width: 300px;
+	height: 300px;
+}
+
+
+
+img {
+	width: 20%;
+	height: 20%;
+	padding-left: 50px;
+	padding-right:50px;
+}
+
+@media (max-width: 480) {
+	p {
+		width: 400px;
+		border: 0;
+	}
+}
+.outerparagraph {
+	background-color: #f5f6f8;
+	width: 100%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+
+}
+
+.paragraph {
+	max-width: 1000px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 200%;
+	margin: 0 auto;
+	background-color: #f5f6f8;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+@media (max-width: 480) {
+	.paragraph {
+		font-size: 16px;
+	}
+	.sprint {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.cheapmonday {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.hallmark {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.unitedcolors {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.underarmour {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.snapple {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+
+.youtube {
+	width: 100%;
+	max-height: 100%;
+	background-color: #323232;
+	color: #f5f6f8;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /*16:9*/;
+	height: 0;
+	overflow: hidden;
+}
+
+.video iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.contacticons {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #323232;
+
+}
+
+button {
+	background-color: #b9b9b9;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+button:hover {
+	box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24); 
+}
+
+@media (max-width: 480px) {
+	.social {
+		width: 50%;
+		height: 50%;
+	}
+}
+
+@media (min-width: 768px) {
+	.social {
+		width: 30%;
+		height: 30%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.social {
+		width: 15%;
+		height: 15%;
+	}
+}
+
+.socialnav {
+	text-align: center;
+	padding: 0 0 0 0 ;
+}
+
+
+.innertext {
+	max-width: 700px;
+	margin: auto ;
+	font-size: 18px;
+	line-height: 200%;
+}
+
+.cheapmonday {
+	max-width: 900px;
+	background-color: #323232;
+	color: #f5f6f8;
+	line-height: 200%;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	display: none;
+
+}
+
+.unitedcolors {
+	max-width: 900px;
+	background-color: #323232;
+	color: #f5f6f8;
+	line-height: 200%;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: none;
+}
+
+.underarmour {
+	max-width: 900px;
+	background-color: #323232;
+	color: #f5f6f8;
+	line-height: 200%;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: none;
+
+}
+
+.hallmark {
+	max-width: 900px;
+	background-color: #323232;
+	color: #f5f6f8;
+	line-height: 200%;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: none;
+}
+
+.snapple {
+	max-width: 900px;
+	background-color: #323232;
+	color: #f5f6f8;
+	line-height: 200%;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: none;
+}
+
+.sprint {
+	max-width: 900px;
+	background-color: #323232;
+	color: #f5f6f8;
+	line-height: 200%;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: none;
+}
